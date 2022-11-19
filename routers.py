@@ -1,4 +1,4 @@
-from flask import Flask, g, render_template, request ,make_response
+from flask import Flask, render_template, request ,make_response
 
 from scraper import get_amazon_data
 import html
@@ -28,4 +28,4 @@ def scraper():
     
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run()
